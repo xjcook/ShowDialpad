@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.xjcook.xposed.showdialpad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data android:value="true" android:name="xposedmodule"/>
+        <meta-data android:value="2.4*" android:name="xposedminversion"/>
+        <meta-data android:value="Automatically show dialpad in Google Dialer." android:name="xposeddescription"/>
+    </application>
+
+</manifest>
