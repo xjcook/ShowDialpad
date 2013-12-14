@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme" >
         <meta-data android:value="true" android:name="xposedmodule"/>
         <meta-data android:value="2.4*" android:name="xposedminversion"/>
-        <meta-data android:value="Automatically show dialpad in Google & AOSP Dialer 4.4 (KitKat)." android:name="xposeddescription"/>
+        <meta-data android:value="Automatically show dialpad in Dialer 4.4 (KitKat).\nSupports Google Dialer and AOSP Dialer." android:name="xposeddescription"/>
     </application>
 
 </manifest>
