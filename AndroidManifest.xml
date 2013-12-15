@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.xjcook.xposed.showdialpad"
-    android:versionCode="2"
+    android:versionCode="3"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme" >
         <meta-data android:value="true" android:name="xposedmodule"/>
         <meta-data android:value="2.4*" android:name="xposedminversion"/>
-        <meta-data android:value="Automatically show dialpad in Google and AOSP Dialer 4.4 (KitKat)" android:name="xposeddescription"/>
+        <meta-data android:value="Automatically shows up dialpad in Google and AOSP Dialer 4.4 (KitKat)" android:name="xposeddescription"/>
     </application>
 
 </manifest>
