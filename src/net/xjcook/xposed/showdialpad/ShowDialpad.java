@@ -3,11 +3,8 @@ package net.xjcook.xposed.showdialpad;
 import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 import static de.robv.android.xposed.XposedHelpers.findMethodExact;
 
-import java.lang.reflect.Method;
-
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 public class ShowDialpad implements IXposedHookLoadPackage {
